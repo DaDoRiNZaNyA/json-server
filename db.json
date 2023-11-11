@@ -1,0 +1,838 @@
+{
+  "orders": [
+    {
+      "id": "3620133831",
+      "order_data": {
+        "number": "3620133831",
+        "date": "23.05.2021",
+        "deliver": "Самовывоз из магазина",
+        "payment_type": "Оплата картой",
+        "price": 124739,
+        "status": "Принят",
+        "address": "г. Санкт-Петербург, ул. Комсомольская, 145",
+        "products": [
+          {
+            "id": "product1",
+            "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло1.",
+            "price": 3143,
+            "total": 3143,
+            "status": "Принят"
+          },
+          {
+            "id": "product2",
+            "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло2.",
+            "price": 3143,
+            "total": 3143,
+            "status": "Принят"
+          },
+          {
+            "id": "product3",
+            "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло3.",
+            "price": 3143,
+            "total": 3143,
+            "status": "Принят"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1",
+      "order_data": {
+        "number": "1",
+        "date": "23.05.2021",
+        "deliver": "Курьерская доставка",
+        "payment_type": "Безналичная оплата",
+        "price": 124739,
+        "status": "Отгружается",
+        "address": "г. Санкт-Петербург, ул. Комсомольская, 145",
+        "products": [
+          {
+            "id": "product4",
+            "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло1.",
+            "price": 3143,
+            "total": 3143,
+            "status": "Принят"
+          },
+          {
+            "id": "product5",
+            "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло2.",
+            "price": 3143,
+            "total": 3143,
+            "status": "Принят"
+          },
+          {
+            "id": "product6",
+            "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло3.",
+            "price": 3143,
+            "total": 3143,
+            "status": "Принят"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "orderData": {
+        "number": "2",
+        "date": "23.05.2021",
+        "deliver": "Курьерская доставка",
+        "paymentType": "Оплата картой",
+        "price": 124739,
+        "status": "Выполнен",
+        "address": "г. Санкт-Петербург, ул. Комсомольская, 145",
+        "products": [
+          {
+            "id": "product7",
+            "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло1.",
+            "price": 3143,
+            "total": 3143,
+            "status": "Принят"
+          },
+          {
+            "id": "product8",
+            "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло2.",
+            "price": 3143,
+            "total": 3143,
+            "status": "Принят"
+          },
+          {
+            "id": "product9",
+            "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло3.",
+            "price": 3143,
+            "total": 3143,
+            "status": "Принят"
+          }
+        ]
+      }
+    }
+  ],
+  "personalInformation": {
+    "name": "Иванов Иванушка",
+    "phone": "+7 (999) 999-99-99",
+    "email": "gmail@gmail.ru"
+  },
+  "bankingInformation": [
+    {
+      "id": "11500446771234",
+      "name": "ПАО Сбербанк",
+      "number": "11500446771234",
+      "bic": "044525225"
+    },
+    {
+      "id": "12345446775758",
+      "name": "ПАО Тинькофф",
+      "number": "12345446775758",
+      "bic": "044525225"
+    },
+    {
+      "id": "3tXkt5v",
+      "number": "123321123",
+      "name": "Тинькофф 5",
+      "bic": "1233213213"
+    },
+    {
+      "id": "wvgG_uc",
+      "number": "31232112",
+      "name": "12312123312",
+      "bic": "1231232123"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "453829",
+      "name": "Адрес Спб, новый",
+      "index": "453829",
+      "city": "Санкт-Петербург",
+      "street": "Красноусольская",
+      "house": "178",
+      "unit": "4",
+      "apartment": "59"
+    },
+    {
+      "id": "123456",
+      "name": "Адрес Москва 2",
+      "index": "123456",
+      "city": "Москва",
+      "street": "Ленина",
+      "house": "14",
+      "unit": "3",
+      "apartment": "54"
+    }
+  ],
+  "suppliersList": [
+    {
+      "id": "1",
+      "organization_name": "ООО \"Пример\"",
+      "tin": "2759304563",
+      "contact_phone": "+7 (132) 123-12-31",
+      "surname": "Иванов",
+      "first_name": "Иван",
+      "patronymic": "Иванович",
+      "active": true,
+      "contact_email": "ivan@example.com",
+      "contact_additional": "Дополнительная информация",
+      "legal_entity_type": "Физ. лицо",
+      "inn": "1234567890",
+      "kpp": "987654321",
+      "ogrn": "987654321098765",
+      "legal_address": "г. Пример, ул. Примерная, д. 123",
+      "legal_phone": "+7 (987) 654-3210",
+      "website": "www.example.com",
+      "organization_email": "info@example.com"
+    },
+    {
+      "id": "2",
+      "organization_name": "ООО \"Пример\"",
+      "tin": "2759304563",
+      "contact_phone": "+7 (347) 229-46-45",
+      "surname": "Иванов",
+      "first_name": "Иван",
+      "patronymic": "Иванович",
+      "active": false,
+      "contact_email": "ivan@example.com",
+      "contact_additional": "Дополнительная информация",
+      "legal_entity_type": "Физ. лицо",
+      "inn": "1234567890",
+      "kpp": "987654321",
+      "ogrn": "987654321098765",
+      "legal_address": "г. Пример, ул. Примерная, д. 123",
+      "legal_phone": "+7 (987) 654-3210",
+      "website": "www.example.com",
+      "organization_email": "info@example.com"
+    }
+  ],
+  "suppliersOrders": [
+    {
+      "id": "1",
+      "orders": [
+        {
+          "number": "№ 3620133837",
+          "date": "23.05.2021",
+          "status": "Принят",
+          "description": "Castrol Magnatec Diesel 5W-40, 4 л, Моторное масло...",
+          "paymentMethod": "Оплата картой",
+          "deliveryMethod": "Курьерская доставка",
+          "deliveryCost": "469 ₽",
+          "totalCost": "124 739 ₽"
+        },
+        {
+          "number": "№ 3620133838",
+          "date": "24.05.2021",
+          "status": "Выполнен",
+          "description": "Масляный фильтр Hengst E11H D89",
+          "paymentMethod": "Оплата наличными",
+          "deliveryMethod": "Самовывоз",
+          "deliveryCost": "0 ₽",
+          "totalCost": "1 200 ₽"
+        },
+        {
+          "number": "№ 3620133839",
+          "date": "25.05.2021",
+          "status": "Оплачен",
+          "description": "Тормозные колодки ATE Ceramic 13.0460-7179.2",
+          "paymentMethod": "Оплата картой",
+          "deliveryMethod": "Курьерская доставка",
+          "deliveryCost": "299 ₽",
+          "totalCost": "4 850 ₽"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "orders": [
+        {
+          "number": "№ 3620133840",
+          "date": "26.05.2021",
+          "status": "Отгружается",
+          "description": "Моторное масло Liqui Moly Leichtlauf HC 7 5W-40",
+          "paymentMethod": "Оплата картой",
+          "deliveryMethod": "Самовывоз",
+          "deliveryCost": "0 ₽",
+          "totalCost": "3 500 ₽"
+        },
+        {
+          "number": "№ 3620133841",
+          "date": "27.05.2021",
+          "status": "Отгружен",
+          "description": "Воздушный фильтр Mahle LX 2432",
+          "paymentMethod": "Оплата наличными",
+          "deliveryMethod": "Самовывоз",
+          "deliveryCost": "0 ₽",
+          "totalCost": "2 350 ₽"
+        }
+      ]
+    }
+  ],
+  "supplierBankingInformation": [
+    {
+      "id": "1",
+      "banking_information": [
+        {
+          "name": "Тинкофф банк",
+          "number": "20893213213",
+          "basic": false
+        },
+        {
+          "name": "Карта для оплаты запчастей",
+          "number": "2089312312321",
+          "basic": true
+        },
+        {
+          "name": "Сбер банк",
+          "number": "2089123123",
+          "basic": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "banking_information": [
+        {
+          "name": "Тинкофф банк",
+          "number": "2089213213",
+          "basic": false
+        },
+        {
+          "name": "Карта для оплаты запчастей",
+          "number": "208912321",
+          "basic": false
+        },
+        {
+          "name": "Сбер банк",
+          "number": "2089123123",
+          "basic": true
+        }
+      ]
+    }
+  ],
+  "supplierIncomesList": [
+    {
+      "id": "1",
+      "incomes": [
+        {
+          "id": "№189492678342",
+          "date": "16.05.2021",
+          "amount": "62 567 ₽",
+          "transferDate": "24.05.2021"
+        },
+        {
+          "id": "№123456789",
+          "date": "10.05.2021",
+          "amount": "45 678 ₽",
+          "transferDate": "20.05.2021"
+        },
+        {
+          "id": "№987654321",
+          "date": "05.05.2021",
+          "amount": "34 567 ₽",
+          "transferDate": "15.05.2021"
+        },
+        {
+          "id": "№111222333",
+          "date": "01.05.2021",
+          "amount": "12 345 ₽",
+          "transferDate": "05.05.2021"
+        },
+        {
+          "id": "№444555666",
+          "date": "25.04.2021",
+          "amount": "72 456 ₽",
+          "transferDate": "02.05.2021"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "incomes": [
+        {
+          "id": "№189492678342",
+          "date": "16.05.2021",
+          "amount": "62 567 ₽",
+          "transferDate": "24.05.2021"
+        },
+        {
+          "id": "№123456789",
+          "date": "10.05.2021",
+          "amount": "45 678 ₽",
+          "transferDate": "20.05.2021"
+        },
+        {
+          "id": "№987654321",
+          "date": "05.05.2021",
+          "amount": "34 567 ₽",
+          "transferDate": "15.05.2021"
+        },
+        {
+          "id": "№111222333",
+          "date": "01.05.2021",
+          "amount": "12 345 ₽",
+          "transferDate": "05.05.2021"
+        },
+        {
+          "id": "№444555666",
+          "date": "25.04.2021",
+          "amount": "72 456 ₽",
+          "transferDate": "02.05.2021"
+        }
+      ]
+    }
+  ],
+  "supplierShopsList": [
+    {
+      "id": "1",
+      "shops": [
+        {
+          "id": "1",
+          "name": "Авто Фаворит",
+          "city": "Москва",
+          "address": "ул. Комсомольская, 178",
+          "phone": "+7 (495) 58-29-04",
+          "email": "client@auto-favorit.ru",
+          "status": "Модерация"
+        },
+        {
+          "id": "2",
+          "name": "Авто Мастер",
+          "city": "Санкт-Петербург",
+          "address": "пр. Ленина, 45",
+          "phone": "+7 (812) 77-11-22",
+          "email": "info@auto-master.spb.ru",
+          "status": "Неактивен"
+        },
+        {
+          "id": "3",
+          "name": "Авто Профи",
+          "city": "Екатеринбург",
+          "address": "ул. Гагарина, 123",
+          "phone": "+7 (343) 123-45-67",
+          "email": "info@auto-profi.ru",
+          "status": "Модерация"
+        },
+        {
+          "id": "4",
+          "name": "Авто Люкс",
+          "city": "Казань",
+          "address": "пр. Баумана, 56",
+          "phone": "+7 (843) 987-65-43",
+          "email": "support@auto-lux.ru",
+          "status": "Активен"
+        },
+        {
+          "id": "5",
+          "name": "Авто Сервис",
+          "city": "Новосибирск",
+          "address": "ул. Кирова, 78",
+          "phone": "+7 (383) 777-88-99",
+          "email": "contact@auto-service.ru",
+          "status": "Активен"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "shops": [
+        {
+          "id": "6",
+          "name": "Авто Фаворит",
+          "city": "Москва",
+          "address": "ул. Комсомольская, 178",
+          "phone": "+7 (495) 58-29-04",
+          "email": "client@auto-favorit.ru",
+          "status": "Активен"
+        },
+        {
+          "id": "7",
+          "name": "Авто Мастер",
+          "city": "Санкт-Петербург",
+          "address": "пр. Ленина, 45",
+          "phone": "+7 (812) 77-11-22",
+          "email": "info@auto-master.spb.ru",
+          "status": "Неактивен"
+        },
+        {
+          "id": "8",
+          "name": "Авто Профи",
+          "city": "Екатеринбург",
+          "address": "ул. Гагарина, 123",
+          "phone": "+7 (343) 123-45-67",
+          "email": "info@auto-profi.ru",
+          "status": "Модерация"
+        },
+        {
+          "id": "9",
+          "name": "Авто Люкс",
+          "city": "Казань",
+          "address": "пр. Баумана, 56",
+          "phone": "+7 (843) 987-65-43",
+          "email": "support@auto-lux.ru",
+          "status": "Активен"
+        },
+        {
+          "id": "10",
+          "name": "Авто Сервис",
+          "city": "Новосибирск",
+          "address": "ул. Кирова, 78",
+          "phone": "+7 (383) 777-88-99",
+          "email": "contact@auto-service.ru",
+          "status": "Активен"
+        }
+      ]
+    }
+  ],
+  "buyersList": [
+    {
+      "id": "id48503285",
+      "surname": "Антонов",
+      "first_name": "Владимир",
+      "patronymic": "Сергеевич",
+      "phone": "+7 (999) 999-99-99",
+      "email": "vladislav.s1989@gmail.com",
+      "active": true
+    },
+    {
+      "id": "id48503123",
+      "surname": "Владимиров",
+      "first_name": "Антон",
+      "patronymic": "Сергеевич",
+      "phone": "+7 (347) 229-46-45",
+      "email": "vladislav.s1989@gmail.com",
+      "active": false
+    }
+  ],
+  "buyersOrdersList": [
+    {
+      "id": "id48503285",
+      "orders": [
+        {
+          "id": "№ 3620133837",
+          "date": "23.05.2021",
+          "status": "Принят",
+          "description": "Castrol Magnatec Diesel 5W-40, 4 л, Моторное масло...",
+          "paymentMethod": "Оплата банковской картой",
+          "deliveryMethod": "Курьерская доставка",
+          "deliveryCost": "469 ₽",
+          "totalCost": "124 739 ₽",
+          "surname": "Антонов",
+          "first_name": "Владимир",
+          "patronymic": "Сергеевич",
+          "phone": "+7 (999) 999-99-99",
+          "email": "vladislav.s1989@gmail.com",
+          "active": true,
+          "address": "г. Санкт-Петербург, ул. Комсомольская, 145",
+          "products": [
+            {
+              "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло.",
+              "vendorCode": "3892058035",
+              "price": "3 143 ₽",
+              "quantity": 3,
+              "totalPrice": "124 739 ₽"
+            }
+          ],
+          "returns": [
+            {
+              "id": "№ 3620133837",
+              "orderDate": "25.12.2017",
+              "status": "Принят",
+              "returnsNumber": "№ 48290330",
+              "returnsDate": "14.06.2021"
+            }
+          ],
+          "banking_information": [
+            {
+              "name": "Тинкофф банк",
+              "number": "2089213213",
+              "basic": false
+            },
+            {
+              "name": "Карта для оплаты запчастей",
+              "number": "208912321",
+              "basic": false
+            },
+            {
+              "name": "Сбер банк",
+              "number": "2089123123",
+              "basic": true
+            }
+          ]
+        },
+        {
+          "id": "№ 3620133838",
+          "date": "24.05.2021",
+          "status": "Выполнен",
+          "description": "Масляный фильтр Hengst E11H D89",
+          "paymentMethod": "Оплата банковской картой",
+          "deliveryMethod": "Самовывоз из магазина",
+          "deliveryCost": "0 ₽",
+          "totalCost": "1 200 ₽",
+          "surname": "Антонов",
+          "first_name": "Владимир",
+          "patronymic": "Сергеевич",
+          "phone": "+7 (999) 999-99-99",
+          "email": "vladislav.s1989@gmail.com",
+          "active": true,
+          "address": "г. Санкт-Петербург, ул. Комсомольская, 145",
+          "products": [
+            {
+              "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло.",
+              "vendorCode": "3892058035",
+              "price": "3 143 ₽",
+              "quantity": 3,
+              "totalPrice": "124 739 ₽"
+            }
+          ],
+          "returns": [
+            {
+              "id": "№ 3620133837",
+              "orderDate": "25.12.2017",
+              "status": "Принят",
+              "returnsNumber": "№ 48290330",
+              "returnsDate": "14.06.2021"
+            }
+          ],
+          "banking_information": [
+            {
+              "name": "Тинкофф банк",
+              "number": "2089213213",
+              "basic": false
+            },
+            {
+              "name": "Карта для оплаты запчастей",
+              "number": "208912321",
+              "basic": false
+            },
+            {
+              "name": "Сбер банк",
+              "number": "2089123123",
+              "basic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "id48503123",
+      "orders": [
+        {
+          "id": "№ 3620133839",
+          "date": "25.05.2021",
+          "status": "Оплачен",
+          "description": "Тормозные колодки ATE Ceramic 13.0460-7179.2",
+          "paymentMethod": "Оплата банковской картой",
+          "deliveryMethod": "Курьерская доставка",
+          "deliveryCost": "299 ₽",
+          "totalCost": "4 850 ₽",
+          "surname": "Владимиров",
+          "first_name": "Антон",
+          "patronymic": "Сергеевич",
+          "phone": "+7 (347) 229-46-45",
+          "email": "vladislav.s1989@gmail.com",
+          "active": false,
+          "address": "г. Санкт-Петербург, ул. Комсомольская, 145",
+          "products": [
+            {
+              "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло.",
+              "vendorCode": "3892058035",
+              "price": "3 143 ₽",
+              "quantity": 3,
+              "totalPrice": "124 739 ₽"
+            }
+          ],
+          "returns": [
+            {
+              "id": "№ 3620133837",
+              "orderDate": "25.12.2017",
+              "status": "Принят",
+              "returnsNumber": "№ 48290330",
+              "returnsDate": "14.06.2021"
+            }
+          ],
+          "banking_information": [
+            {
+              "name": "Тинкофф банк",
+              "number": "2089213213",
+              "basic": false
+            },
+            {
+              "name": "Карта для оплаты запчастей",
+              "number": "208912321",
+              "basic": false
+            },
+            {
+              "name": "Сбер банк",
+              "number": "2089123123",
+              "basic": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "suppliersOrdersList": [
+    {
+      "id": "1",
+      "orders": [
+        {
+          "id": "1",
+          "date": "23.05.2021",
+          "status": "Принят",
+          "description": "Castrol Magnatec Diesel 5W-40, 4 л, Моторное масло...",
+          "paymentMethod": "Оплата банковской картой",
+          "deliveryMethod": "Самовывоз из магазина",
+          "deliveryCost": "469 ₽",
+          "totalCost": "124 739 ₽",
+          "surname": "Владимиров",
+          "first_name": "Сергей",
+          "patronymic": "Антонович",
+          "phone": "+7 (999) 999-99-99",
+          "email": "vladislav.s1989@gmail.com",
+          "active": true,
+          "address": "г. Санкт-Петербург, ул. Комсомольская, 145",
+          "products": [
+            {
+              "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло.",
+              "vendorCode": "3892058035",
+              "price": "3 143 ₽",
+              "quantity": 3,
+              "totalPrice": "124 739 ₽"
+            }
+          ],
+          "returns": [
+            {
+              "id": "№ 3620133837",
+              "orderDate": "25.12.2017",
+              "status": "Принят",
+              "returnsNumber": "№ 48290330",
+              "returnsDate": "14.06.2021"
+            }
+          ],
+          "banking_information": [
+            {
+              "name": "Тинкофф банк",
+              "number": "2089213213",
+              "basic": false
+            },
+            {
+              "name": "Карта для оплаты запчастей",
+              "number": "208912321",
+              "basic": false
+            },
+            {
+              "name": "Сбер банк",
+              "number": "2089123123",
+              "basic": true
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "date": "24.05.2021",
+          "status": "Выполнен",
+          "description": "Масляный фильтр Hengst E11H D89",
+          "paymentMethod": "Оплата банковской картой",
+          "deliveryMethod": "Самовывоз из магазина",
+          "deliveryCost": "0 ₽",
+          "totalCost": "1 200 ₽",
+          "surname": "Владимиров",
+          "first_name": "Сергей",
+          "patronymic": "Антонович",
+          "phone": "+7 (999) 999-99-99",
+          "email": "vladislav.s1989@gmail.com",
+          "active": true,
+          "address": "г. Санкт-Петербург, ул. Комсомольская, 145",
+          "products": [
+            {
+              "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло.",
+              "vendorCode": "3892058035",
+              "price": "3 143 ₽",
+              "quantity": 3,
+              "totalPrice": "124 739 ₽"
+            }
+          ],
+          "returns": [
+            {
+              "id": "№ 3620133837",
+              "orderDate": "25.12.2017",
+              "status": "Принят",
+              "returnsNumber": "№ 48290330",
+              "returnsDate": "14.06.2021"
+            }
+          ],
+          "banking_information": [
+            {
+              "name": "Тинкофф банк",
+              "number": "2089213213",
+              "basic": false
+            },
+            {
+              "name": "Карта для оплаты запчастей",
+              "number": "208912321",
+              "basic": false
+            },
+            {
+              "name": "Сбер банк",
+              "number": "2089123123",
+              "basic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "orders": [
+        {
+          "id": "3",
+          "date": "25.05.2021",
+          "status": "Оплачен",
+          "description": "Тормозные колодки ATE Ceramic 13.0460-7179.2",
+          "paymentMethod": "Оплата банковской картой",
+          "deliveryMethod": "Курьерская доставка",
+          "deliveryCost": "299 ₽",
+          "totalCost": "4 850 ₽",
+          "surname": "Петров",
+          "first_name": "Владимир",
+          "patronymic": "Васильевич",
+          "phone": "+7 (347) 229-46-45",
+          "email": "vladislav.s1989@gmail.com",
+          "active": false,
+          "address": "г. Санкт-Петербург, ул. Комсомольская, 145",
+          "products": [
+            {
+              "name": "Castrol EDGE 5W-30 LL, 4 л. Моторное масло.",
+              "vendorCode": "3892058035",
+              "price": "3 143 ₽",
+              "quantity": 3,
+              "totalPrice": "124 739 ₽"
+            }
+          ],
+          "returns": [
+            {
+              "id": "№ 3620133837",
+              "orderDate": "25.12.2017",
+              "status": "Принят",
+              "returnsNumber": "№ 48290330",
+              "returnsDate": "14.06.2021"
+            }
+          ],
+          "banking_information": [
+            {
+              "name": "Тинкофф банк",
+              "number": "2089213213",
+              "basic": false
+            },
+            {
+              "name": "Карта для оплаты запчастей",
+              "number": "208912321",
+              "basic": false
+            },
+            {
+              "name": "Сбер банк",
+              "number": "2089123123",
+              "basic": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
